@@ -1,0 +1,409 @@
+
+#icon {
+  display: none;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation bar */
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+}
+
+/* Brand */
+b {
+  font-size: 30px;
+  margin-left: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu icon */
+.bi {
+  font-size: 30px;
+  margin-right: 140px;
+  cursor: pointer;
+  /* color: black; */
+}
+.menu{
+   color: black;
+}
+/* Sidebar default hidden */
+.sidebox {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: fixed;
+  top: 0;
+  left: 1395px; /* 👈 this makes it appear from left */
+  height: 100vh;
+  width: 120px;
+  background-color: black;
+  gap: 25px;
+  padding-top: 80px;
+  z-index: 2;
+  border: 2px solid;
+}
+
+
+/* Show sidebar when checkbox is checked */
+#icon:checked ~ .sidebox {
+  display: flex;
+}
+
+/* Navigation links */
+.a {
+  color: rgb(146, 141, 141);
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.a:hover {
+  color: white;
+  transition: all 0.3s ease;
+   transform: scale(1.20);
+}
+.sc{
+   margin-top: 230px;
+margin-left: 45px;
+font-size: 28px;
+color: blue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mp{
+margin-top: -20px;
+margin-left: 45px;
+font-size: 50px;
+color: dark brown;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mp1{
+   display: block;
+margin-left: 45px;
+font-size: 50px;
+color: dark brown;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+margin-bottom: 100px;
+ } 
+ .fl{
+   outline: none;
+   text-decoration: none;
+   border: none;
+ }
+.imgr1{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/15essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.img:hover{
+   background-color:transparent;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+   transform: scale(1.05);
+}
+.h{
+   opacity: 0;
+   height: 100%;
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:black;
+}
+.imgr1 .h01:hover{
+   opacity: 1;
+}
+.imgr2{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/14essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr2 .h02:hover{
+   opacity: 1;
+}.imgr3{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/13essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr3 .h03:hover{
+   opacity: 1;
+}.imgr4{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/12essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr4 .h04:hover{
+   opacity: 1;
+}.imgr5{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/11essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr5 .h05:hover{
+   opacity: 1;
+}.imgr6{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/10essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr6 .h06:hover{
+   opacity: 1;
+}.imgr7{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/9essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr7 .h07:hover{
+   opacity: 1;
+}.imgr8{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/8essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr8 .h08:hover{
+   opacity: 1;
+}.imgr9{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/7essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr9 .h09:hover{
+   opacity: 1;
+}.imgr10{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/6essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr10 .h10:hover{
+   opacity: 1;
+}.imgr11{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/5essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr11 .h11:hover{
+   opacity: 1;
+}.imgr12{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/4essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr12 .h12:hover{
+   opacity: 1;
+}.imgr13{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/3essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr13 .h13:hover{
+   opacity: 1;
+}.imgr14{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/2essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr14 .h14:hover{
+   opacity: 1;
+}.imgr15{
+   height: 600px;
+   width: 400px;
+   background-image: url("https://jevelin.shufflehound.com/portfolio-minimalistic/wp-content/uploads/sites/33/2019/04/1essentialiving-8bEUB1cOKwA-unsplash1-420x660.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgr15 .h15:hover{
+   opacity: 1;
+}
+.up{
+   /* display: flex; */
+   margin-top: -70px;
+   /* justify-content: end; */
+  margin-right: 30px;
+   margin-left: 1240px;
+   font-size: 30px;
+   color:grey;
+}
+.upp{
+   text-decoration: none;
+}
+.cr{
+   border: 2px solid grey;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+    margin-left: 1230px;
+    margin-top: -45px;
+}
+.vap{
+  border: 2px blue;
+   height: 70px;
+   width: 250px;
+   background-color: blue;
+   color: white;
+   font-weight: bold;
+   font-size: 30px;
+   margin-left: 520px;
+   /* padding: 15px; */
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   /* margin-top: -100px; */
+}
+.vv{
+   text-decoration: none;
+   margin-top: 20px;
+   color: white;
+   font-size: 20px;
+}
+.vap:hover{
+   /* background-color: rgb(221, 221, 221); */
+   background-color:blue;
+   opacity: 0.9;
+   transition: all 0.3s ease;
+   transform: scale(1.05);
+}
+.footer{
+   margin-top: 50px;
+   width: 1519px;
+   /* border: 2px solid; */
+   height: 500px;
+   background-color: black;
+  /* margin-right: 0px; */
+  margin-left: -119px;
+}
+.lastf{
+   width: 100%;
+   /* border: 2px solid; */
+   height: 130px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   
+}
+.copy{
+margin-top: 50px;
+}
+.lasttxt{
+ font-weight: bold;
+ font-size: 65px;
+ color: white;
+ margin-left: 130px;
+ 
+}
+.trump{
+   height: 80px;
+   width: 500px;
+   /* border: 2px solid; */
+   background-color: black;
+}
+.contact{
+   border: 2px blue;
+   height: 100px;
+   width: 280px;
+   background-color: blue;
+   color: white;
+   font-weight: bold;
+   font-size: 30px;
+   margin-left: 1100px;
+   /* padding: 15px; */
+   border-radius: 10px;
+   margin-top: -160px;
+}
+.cu{
+  margin-left: 45px;
+  /* margin-top: 90px; */
+  padding: 20px;
+}
+.contact:hover{
+   /* background-color: rgb(221, 221, 221); */
+   background-color:blue;
+   opacity: 0.9;
+   transition: all 0.3s ease;
+   transform: scale(1.05);
+}
+.empty{
+   border: 2px solid;
+   background-color:grey;
+   margin-top: 150px;
+}
+.exp{
+   display: flex;
+ gap: 40px;
+  font-size: 20px;
+  font-weight: 300;
+   justify-content: center;
+   margin-top: 40px;
+   color: rgb(227, 224, 224);
+}
